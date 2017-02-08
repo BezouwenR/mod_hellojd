@@ -11,16 +11,10 @@
 	<description>MOD_HELLOJUG_XML_DESCRIPTION</description>
 
 	<files>
-		<filename module="mod_hellojug">mod_hellojug.php</filename>
+		<folder>language</folder>
 		<folder>tmpl</folder>
+		<filename module="mod_hellojug">mod_hellojug.php</filename>
 	</files>
-
-	<languages folder="language">
-		<language tag="nl-NL">nl-NL/nl-NL.mod_hellojug.ini</language>
-		<language tag="nl-NL">nl-NL/nl-NL.mod_hellojug.sys.ini</language>
-		<language tag="en-GB">en-GB/en-GB.mod_hellojug.ini</language>
-		<language tag="en-GB">en-GB/en-GB.mod_hellojug.sys.ini</language>
-	</languages>
 
 	<config>
 		<fields name="params">
