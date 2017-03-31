@@ -1,38 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension type="module" version="3.1" client="site" method="upgrade">
-	<name>MOD_HELLOJUG</name>
+	<name>MOD_HELLOJD</name>
 	<author>Niels van der Veer</author>
-	<creationDate>Juni 2016</creationDate>
-	<copyright>Copyright (C) 2016 Niels van der Veer. All rights reserved.</copyright>
+	<creationDate>April 2017</creationDate>
+	<copyright>Copyright (C) 2017 Niels van der Veer. All rights reserved.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<authorEmail>contact@nielsvanderveer.me</authorEmail>
 	<authorUrl>www.nielsvanderveer.me</authorUrl>
 	<version>1.0.0</version>
-	<description>MOD_HELLOJUG_XML_DESCRIPTION</description>
+	<description>MOD_HELLOJD_XML_DESCRIPTION</description>
 
 	<files>
 		<folder>language</folder>
 		<folder>tmpl</folder>
-		<filename module="mod_hellojug">mod_hellojug.php</filename>
+		<filename module="mod_hellojd">mod_hellojd.php</filename>
 	</files>
 
 	<config>
 		<fields name="params">
 			<fieldset name="basic">
 				<field
-					name="name"
+					name="country"
 					type="text"
 					default=""
-					label="MOD_HELLOJUG_FIELD_NAME_LABEL"
-					description="MOD_HELLOJUG_FIELD_NAME_DESC"
-				/>
-			</fieldset>
-			<fieldset name="advanced">
-				<field
-					name="layout"
-					type="modulelayout"
-					label="JFIELD_ALT_LAYOUT_LABEL"
-					description="JFIELD_ALT_MODULE_LAYOUT_DESC"
+					label="MOD_HELLOJD_FIELD_COUNTRY_LABEL"
+					description="MOD_HELLOJD_FIELD_COUNTRY_DESC"
 				/>
 			</fieldset>
 		</fields>

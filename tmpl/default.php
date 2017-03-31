@@ -2,4 +2,4 @@
 defined('_JEXEC') or die;
 ?>
 
-Hallo JUG <?php echo $params->get("name", "010"); ?>!
+<?php echo JText::_('MOD_HELLOJD_GREETING'); ?> <?php echo $params->get('country', 'Nederland'); ?>!
